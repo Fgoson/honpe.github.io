@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>生成二维码</title>
+        <script type='text/javascript' src='http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js'></script>
+        <script type="text/javascript" src="http://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    </head>
+    <body>
+        <div id="qrcode"></div>
+        
+    </body>
+    <script>
+        $("#qrcode").qrcode({
+            width:164,
+            height:164,
+            text:"https://fgoson.github.io/QRCode/dist/#/"
+        })
+        
+        
+    </script>
+</html>
